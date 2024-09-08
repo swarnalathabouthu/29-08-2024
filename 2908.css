@@ -1,0 +1,191 @@
+header{
+    background-color: black;
+       padding: 10px 50px 10px 5px;
+
+}
+.navbar-one{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#header-div-one{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: large;
+}
+#logo-image {
+    width: 80px;
+    height: 80px;
+}
+
+#profile-image{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#anchornav{
+    text-decoration: none;
+    color: white;
+}
+#login{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+}
+.navbar-two{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-two-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-three{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+
+}
+#input{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid grey;
+    border-radius: 10px ;
+    color: black;
+}
+#button{
+    background-color: skyblue;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 10px ;
+    color: black;
+}
+.marquee{
+    color: red;
+    text-shadow: 1px 1px 1px white;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+#marqueee{
+    margin: 5px;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+#section-two-div-one{
+    padding: 10px;
+    text-align: center;
+}
+#section-two-div-two{
+    padding: 10px;
+    text-align: center;
+}
+#section-two-div-three{
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer{
+    text-decoration: none;
+    color: white;
+}
+/* .menu-toggle {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+} */
+
+/* Here iam making the travel website responsive. */
+@media screen and (max-width:450px){
+    body{
+        width: 300px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+     li p{
+        font-size: small;
+     }
+     #ul-three{
+        padding: 0;
+        font-size: small;
+     }
+     .section-two{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+        padding: 10px;
+     }
+     footer{
+        gap: 0px;
+     }
+
+     /* .menu-icon {
+        display: block;
+        color: white;
+    }
+    .menu-toggle:checked + .menu-icon + .navbar-two {
+        display: flex; 
+        color: white;/* Show the menu when checkbox is checked 
+    }
+    #navbar-two{
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+    } */
+}
+@media screen and (min-width:426px )and (max-width:768px){
+    body{
+        width: 426px;
+    }
+
+}
+@media screen and (min-width:769px )and (max-width:1024px){
+    body{
+        width: 769px;
+    }
+
+}
+@media screen and (min-width:1025px )and (max-width:1440px){
+    body{
+        width: 1025px;
+    }
+}
+@media screen and (min-width:1441px )and (max-width:2560px){
+    body{
+        width: 1441px;
+    }
+}
